@@ -1,4 +1,4 @@
 source :rubygems
 
-gem "trinidad"
+gem "mizuno"
 gem "sinatra"
