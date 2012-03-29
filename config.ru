@@ -1,3 +1,4 @@
+require 'bundler/setup'
 require 'sinatra/base'
 
 class App < Sinatra::Base
