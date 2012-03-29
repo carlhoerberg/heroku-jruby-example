@@ -30,4 +30,4 @@
     -----> Launching... done, v5
            http://blazing-stone-2233.herokuapp.com/ deployed to Heroku
 
-More information about the buildpack can be fond here: [github.com/carlhoerberg/heroku-buildpack-jruby](https://github.com/carlhoerberg/heroku-buildpack-jruby)
+More information about the buildpack can be found here: [github.com/carlhoerberg/heroku-buildpack-jruby](https://github.com/carlhoerberg/heroku-buildpack-jruby)
