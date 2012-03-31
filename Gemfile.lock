@@ -1,29 +1,25 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    childprocess (0.3.1)
-      ffi (~> 1.0.6)
-    choice (0.1.6)
-    ffi (1.0.11)
-    ffi (1.0.11-java)
-    mizuno (0.5.1)
-      childprocess (>= 0.2.6)
-      choice (>= 0.1.0)
-      ffi (>= 1.0.0)
-      rack (>= 1.0.0)
+    kgio (2.7.4)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
+    raindrops (0.8.0)
     sinatra (1.3.2)
       rack (~> 1.3, >= 1.3.6)
       rack-protection (~> 1.2)
       tilt (~> 1.3, >= 1.3.3)
     tilt (1.3.3)
+    unicorn (4.2.1)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
 
 PLATFORMS
   java
   ruby
 
 DEPENDENCIES
-  mizuno
   sinatra
+  unicorn
