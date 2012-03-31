@@ -2,17 +2,11 @@ require "bundler/setup"
 require "rails"
 require "action_controller/railtie"
 
-<<<<<<< HEAD
-class App < Sinatra::Base
-  get '/' do
-    "You're running Unicorn on Heroku!"
-=======
 $stdout.sync = true
 
 class MyApp < Rails::Application
   routes.append do
     match "/" => "hello#index"
->>>>>>> master
   end
 
   config.logger = Logger.new STDOUT
