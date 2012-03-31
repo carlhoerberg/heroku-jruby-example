@@ -3,7 +3,7 @@ require 'sinatra/base'
 
 class App < Sinatra::Base
   get '/' do
-    "You're running JRuby-#{JRUBY_VERSION} on Heroku!"
+    "You're running Thin on Heroku!"
   end
 end
 
