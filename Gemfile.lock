@@ -17,11 +17,14 @@ GEM
     activesupport (3.2.3)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    bouncy-castle-java (1.5.0146.1)
     builder (3.0.0)
     erubis (2.7.0)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.3)
+    jruby-openssl (0.7.6.1)
+      bouncy-castle-java (>= 1.5.0146.1)
     json (1.6.6)
     json (1.6.6-java)
     multi_json (1.2.0)
@@ -60,6 +63,7 @@ PLATFORMS
 
 DEPENDENCIES
   actionpack (~> 3.2)
+  jruby-openssl
   puma
   railties (~> 3.2)
   tzinfo
