@@ -1,1 +1,1 @@
-web: bin/puma -p $PORT -q -t 2000:2000
+web: bin/puma -p $PORT -q -t 0:256
