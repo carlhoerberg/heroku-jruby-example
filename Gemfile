@@ -1,4 +1,4 @@
 source :rubygems
 
-gem "mizuno"
+gem "puma"
 gem "sinatra"

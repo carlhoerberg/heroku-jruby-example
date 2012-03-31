@@ -1,16 +1,10 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    childprocess (0.3.1)
-      ffi (~> 1.0.6)
-    choice (0.1.6)
-    ffi (1.0.11)
-    ffi (1.0.11-java)
-    mizuno (0.5.1)
-      childprocess (>= 0.2.6)
-      choice (>= 0.1.0)
-      ffi (>= 1.0.0)
-      rack (>= 1.0.0)
+    puma (1.1.1)
+      rack (~> 1.2)
+    puma (1.1.1-java)
+      rack (~> 1.2)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -25,5 +19,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mizuno
+  puma
   sinatra
