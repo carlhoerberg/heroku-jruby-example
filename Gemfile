@@ -1,4 +1,4 @@
 source :rubygems
 
-gem "mizuno"
+gem "thin"
 gem "sinatra"
