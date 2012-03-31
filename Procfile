@@ -1,1 +1,1 @@
-web: bin/mizuno -p $PORT -E $RACK_ENV
+web: bin/mizuno -p $PORT -E $RACK_ENV --threads 256
