@@ -1,1 +1,1 @@
-web: bin/unicorn -p $PORT -E $RACK_ENV
+web: bin/unicorn -p $PORT -E $RACK_ENV -c unicorn.rb
