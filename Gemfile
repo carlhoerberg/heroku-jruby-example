@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem "puma"
 gem "actionpack", "~> 3.2"
